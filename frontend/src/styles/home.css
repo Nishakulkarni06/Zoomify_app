@@ -39,3 +39,23 @@ h1{
 .main{
     display: flex;
 }
+
+@media (max-width:500px){
+    .leftHomeComp{
+        display: none;
+    }
+}
+
+@media (max-width:400px){
+    .rightHomeComp{
+        margin-left:0rem;
+    }
+    .nav-comp{
+        display: flex;
+        flex-direction: column;
+    }
+    .logout-button{
+        margin-top: -1rem;
+        margin-left: 1rem;
+    }
+}

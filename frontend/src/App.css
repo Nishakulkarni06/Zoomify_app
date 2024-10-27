@@ -62,3 +62,26 @@
 .landingPageMain .mainImage img{
   height: 70vh;
 }
+
+
+@media (max-width:500px){
+  .mainImage{
+    display: none;
+  }
+}
+
+@media (max-width:350px){
+  .navlist{
+    display: flex;
+    flex-direction: column;
+  }
+  .navlist a{
+    margin-top: -2rem;
+  }
+  .navlist div{
+    margin-top: -2rem;
+  }
+  .mainText{
+    margin: -5rem;
+  }
+}
